@@ -27,3 +27,5 @@ For more information on the Solarized theme itself, see the main website:
 
 and the main GitHub repository:
 <https://github.com/altercation/solarized>
+
+Note that you'll need a recent version of knitr (>= 1.5), since the style names were changed recently.
