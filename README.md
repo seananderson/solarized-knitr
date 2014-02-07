@@ -1,6 +1,6 @@
 # Solarized knitr style files
 
-The built-in [knitr](http://yihui.name/knitr) [Solarized](http://ethanschoonover.com/solarized) style files are quite basic. I've been experimenting with an improved versions.
+The built-in [knitr](http://yihui.name/knitr) [Solarized](http://ethanschoonover.com/solarized) style files are quite basic. I've been experimenting with improved versions.
 
 This repository has my versions of the light and dark Solarized theme files:
 
