@@ -1,0 +1,27 @@
+\documentclass{article}
+
+\begin{document}
+
+<<set-knitr-options, cache=FALSE, echo=FALSE>>=
+library("knitr")
+opts_chunk$set(dev = 'pdf')
+opts_knit$set(out.format = "latex")
+thm = knit_theme$get("solarized-dark.css")
+knit_theme$set(thm)
+@
+
+\section{Solarized dark}
+
+This document tests the \texttt{solarized-dark.css} \textbf{knitr} style file.
+
+<<test-code>>=
+# This is a comment
+my_function <- function(this = 4, that = "four") {
+  4 + 4
+  print("this")
+  y <- TRUE
+  3:10
+}
+my_function()
+@
+\end{document}
