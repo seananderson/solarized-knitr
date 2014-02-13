@@ -15,7 +15,7 @@ To use them yourself, download the `.css` files, place them in your working dire
 library("knitr")
 opts_chunk$set(dev = 'pdf')
 opts_knit$set(out.format = "latex")
-thm = knit_theme$get("solarized-dark.css")
+thm <- knit_theme$get("solarized-dark.css")
 knit_theme$set(thm)
 @
 ```
